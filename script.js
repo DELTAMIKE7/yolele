@@ -84,3 +84,13 @@ class khaneketali{
 var thali1 = new khaneketali('Gulab jamun', 120)
 var thali2 = new khaneketali('Rasmlaiy',20)
 
+var anchors =document.querySelectorAll(".menu_nav a");
+console.log(anchors);
+
+
+anchors.forEach((anchor)=>{
+	anchor.addEventListener('click',(event)=>{
+		event.preventDefault();
+
+	})
+})
