@@ -19,7 +19,7 @@ function menuBtnClick() {
 			burgSpan[0].style.transform = 'rotate(0deg)';
 			burgSpan[1].style.transform = 'rotate(0deg)';
 			hamburgTxt.innerHTML = 'Menu';
-			document.location.href = '/';
+			menuPage.style.display = 'none';
 			menuPage.style.opacity = '0';
 			menuBtn.href="javascript:;"
 			menuClick = 1;
